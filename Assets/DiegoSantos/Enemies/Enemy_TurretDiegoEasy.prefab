@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth: 200
-  CriticalHealthRatio: 0.3
+  CriticalHealthRatio: 0.1
 --- !u!114 &3464315327790461765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,9 +453,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DetectionSourcePoint: {fileID: 6571005840976436832}
-  DetectionRange: 30
-  AttackRange: 35
-  KnownTargetTimeout: 4
+  DetectionRange: 5
+  AttackRange: 10
+  KnownTargetTimeout: 2
   Animator: {fileID: 0}
 --- !u!1 &7448957880145452174
 GameObject:
@@ -695,7 +695,7 @@ MonoBehaviour:
   WeaponRoot: {fileID: 8815063736924141185}
   WeaponMuzzle: {fileID: 2096565386399891227}
   ShootType: 1
-  ProjectilePrefab: {fileID: 8924682559891268397, guid: 154bfb4989fe16d439e8f3fb7c20b72b,
+  ProjectilePrefab: {fileID: 8924682559891268397, guid: 9506e58bb8951ed4883da85703ec1aa4,
     type: 3}
   DelayBetweenShots: 0.06
   BulletSpreadAngle: 0

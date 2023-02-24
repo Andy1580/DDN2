@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e27364eefd6dd0341ba72a3bfc0d9727, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 400
+  MaxHealth: 300
   CriticalHealthRatio: 0.4
 --- !u!114 &3464315327790461765
 MonoBehaviour:
@@ -453,9 +453,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DetectionSourcePoint: {fileID: 6571005840976436832}
-  DetectionRange: 30
-  AttackRange: 35
-  KnownTargetTimeout: 4
+  DetectionRange: 15
+  AttackRange: 25
+  KnownTargetTimeout: 3
   Animator: {fileID: 0}
 --- !u!1 &7448957880145452174
 GameObject:
